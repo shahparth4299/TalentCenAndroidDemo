@@ -1,0 +1,38 @@
+<cricket_players>
+    <player>
+        <full_name>Sachin Tendulkar</full_name>
+        <image_name>sachin.jpg</image_name>
+        <detailed_info>One of the greatest cricketers of all time, Sachin Tendulkar is known for his prolific batting career. He has numerous records to his name and is often referred to as the "Master Blaster."</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Sachin_Tendulkar</wiki_url>
+    </player>
+    <player>
+        <full_name>Virat Kohli</full_name>
+        <image_name>virat.jpg</image_name>
+        <detailed_info>Virat Kohli is a modern-day cricketing legend and a prolific run-scorer for the Indian cricket team. He is known for his aggressive style of play and exceptional consistency.</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Virat_Kohli</wiki_url>
+    </player>
+    <player>
+        <full_name>M.S. Dhoni</full_name>
+        <image_name>dhoni.jpg</image_name>
+        <detailed_info>Mahendra Singh Dhoni, known as "Captain Cool," is a former Indian captain and one of the most successful captains in the history of Indian cricket.</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Mahendra_Singh_Dhoni</wiki_url>
+    </player>
+    <player>
+        <full_name>Rohit Sharma</full_name>
+        <image_name>rohit.jpg</image_name>
+        <detailed_info>Rohit Sharma is known for his explosive opening batting and has achieved several double centuries in ODIs. He is also a successful captain of the Indian cricket team.</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Rohit_Sharma</wiki_url>
+    </player>
+    <player>
+        <full_name>Anil Kumble</full_name>
+        <image_name>kumble.jpg</image_name>
+        <detailed_info>Anil Kumble, a legendary leg-spinner, is one of India's leading wicket-takers in both Test and One-Day International cricket. He is also known for his captaincy.</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Anil_Kumble</wiki_url>
+    </player>
+    <player>
+        <full_name>Rahul Dravid</full_name>
+        <image_name>dravid.jpg</image_name>
+        <detailed_info>Rahul Dravid, also known as "The Wall," is one of India's most dependable and technically sound batsmen. He has been a pillar of strength in the Indian batting lineup.</detailed_info>
+        <wiki_url>https://en.wikipedia.org/wiki/Rahul_Dravid</wiki_url>
+    </player>
+</cricket_players>

@@ -1,0 +1,52 @@
+<talentcen>
+  <section>
+    <name>Information Technology</name>
+    <image>tech.jpg</image>
+    <total_companies>10</total_companies>
+    <companies>
+      <company>
+        <companyName>Amazon</companyName>
+        <vision>To organize the world's information and make it universally accessible and useful.</vision>
+        <mission>To focus on customer obsession rather than competitor focus, continuous innovation, operational excellence, and long-term thinking.</mission>
+        <description>Amazon is one of the world's leading technology companies, with a wide range of products and services, including e-commerce, cloud computing, and streaming video.</description>
+        <jobs_available>Software Engineer, Data Scientist, Product Manager</jobs_available>
+        <company_logo>amazon.jpg</company_logo>
+        <career_page_link>https://www.amazon.com/jobs</career_page_link>
+      </company>
+      <company>
+        <companyName>Microsoft</companyName>
+        <vision>To empower every person and every organization on the planet to achieve more.</vision>
+        <mission>To build the world's best software, hardware, and services, and to make them accessible and affordable to people all over the world.</mission>
+        <description>Microsoft is another leading technology company, with a wide range of products and services, including the Windows operating system, the Office productivity suite, and the Azure cloud computing platform.</description>
+        <jobs_available>Software Engineer, Cloud Architect, Data Scientist</jobs_available>
+        <company_logo>microsoft.jpg</company_logo>
+        <career_page_link>https://careers.microsoft.com</career_page_link>
+      </company>
+    </companies>
+  </section>
+  <section>
+    <name>Healthcare</name>
+    <image>healthcare.jpg</image>
+    <total_companies>10</total_companies>
+    <companies>
+      <company>
+        <companyName>Amazon</companyName>
+        <vision>To organize the world's information and make it universally accessible and useful.</vision>
+        <mission>To focus on customer obsession rather than competitor focus, continuous innovation, operational excellence, and long-term thinking.</mission>
+        <description>Amazon is one of the world's leading technology companies, with a wide range of products and services, including e-commerce, cloud computing, and streaming video.</description>
+        <jobs_available>Software Engineer, Data Scientist, Product Manager</jobs_available>
+        <company_logo>amazon.jpg</company_logo>
+        <career_page_link>https://www.amazon.com/jobs</career_page_link>
+      </company>
+      <company>
+        <companyName>Microsoft</companyName>
+        <vision>To empower every person and every organization on the planet to achieve more.</vision>
+        <mission>To build the world's best software, hardware, and services, and to make them accessible and affordable to people all over the world.</mission>
+        <description>Microsoft is another leading technology company, with a wide range of products and services, including the Windows operating system, the Office productivity suite, and the Azure cloud computing platform.</description>
+        <jobs_available>Software Engineer, Cloud Architect, Data Scientist</jobs_available>
+        <company_logo>microsoft.jpg</company_logo>
+        <career_page_link>https://careers.microsoft.com</career_page_link>
+      </company>
+    </companies>
+  </section>
+</talentcen>
