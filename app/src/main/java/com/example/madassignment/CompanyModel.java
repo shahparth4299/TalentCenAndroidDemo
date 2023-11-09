@@ -3,7 +3,23 @@ package com.example.madassignment;
 import java.io.Serializable;
 
 public class CompanyModel implements Serializable {
-    String name, vision, mission, description, jobsAvailable, companyLogo, careerPageLink;
+    String name, vision, mission, description, jobsAvailable, companyLogo, careerPageLink, rating, reviews;
+
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
+    public String getReviews() {
+        return reviews;
+    }
+
+    public void setReviews(String reviews) {
+        this.reviews = reviews;
+    }
 
     public String getName() {
         return name;
@@ -61,7 +77,7 @@ public class CompanyModel implements Serializable {
         this.careerPageLink = careerPageLink;
     }
 
-    public CompanyModel(String name, String vision, String mission, String description, String jobsAvailable, String companyLogo, String careerPageLink) {
+    public CompanyModel(String name, String vision, String mission, String description, String jobsAvailable, String companyLogo, String careerPageLink, String rating, String reviews) {
         this.name = name;
         this.vision = vision;
         this.mission = mission;
@@ -69,5 +85,7 @@ public class CompanyModel implements Serializable {
         this.jobsAvailable = jobsAvailable;
         this.companyLogo = companyLogo;
         this.careerPageLink = careerPageLink;
+        this.rating = rating;
+        this.reviews = reviews;
     }
 }

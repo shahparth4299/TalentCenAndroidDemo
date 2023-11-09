@@ -2,7 +2,7 @@
   <section>
     <name>Information Technology</name>
     <image>tech.jpg</image>
-    <total_companies>10</total_companies>
+    <total_companies>7</total_companies>
     <companies>
       <company>
         <companyName>Amazon</companyName>
@@ -12,6 +12,8 @@
         <jobs_available>Software Engineer, Data Scientist, Product Manager</jobs_available>
         <company_logo>amazon.jpg</company_logo>
         <career_page_link>https://www.amazon.com/jobs</career_page_link>
+        <rating>4.3</rating>
+        <reviews>183 Reviews</reviews>
       </company>
       <company>
         <companyName>Microsoft</companyName>
@@ -21,32 +23,615 @@
         <jobs_available>Software Engineer, Cloud Architect, Data Scientist</jobs_available>
         <company_logo>microsoft.jpg</company_logo>
         <career_page_link>https://careers.microsoft.com</career_page_link>
+        <rating>4.1</rating>
+        <reviews>567 Reviews</reviews>
       </company>
+      <company>
+        <companyName>Apple</companyName>
+        <vision>To bring the best user experience to its customers through its innovative hardware, software, and services.</vision>
+        <mission>To design the best products, offer the best support, and continually improve for its customers.</mission>
+        <description>Apple is known for its innovation in consumer electronics, software, and online services.</description>
+        <jobs_available>Software Engineer, iOS Developer, Product Manager</jobs_available>
+        <company_logo>apple.jpg</company_logo>
+        <career_page_link>https://www.apple.com/jobs</career_page_link>
+        <rating>4.6</rating>
+        <reviews>1345 Reviews</reviews>
+      </company>
+    <company>
+      <companyName>IBM</companyName>
+      <vision>To lead in the creation, development, and manufacture of the industry's most advanced information technologies.</vision>
+      <mission>To provide products and services that improve the way businesses work and interact.</mission>
+      <description>IBM is a global technology and innovation company that stands for progress.</description>
+      <jobs_available>Software Engineer, Data Scientist, Technical Support</jobs_available>
+      <company_logo>ibm.jpg</company_logo>
+      <career_page_link>https://www.ibm.com/employment</career_page_link>
+      <rating>4.2</rating>
+      <reviews>432 Reviews</reviews>
+    </company>
+    <company>
+    <companyName>Intel</companyName>
+    <vision>To create and extend computing technology to connect and enrich the lives of every person on earth.</vision>
+    <mission>To employ world-class engineers and create innovative products to power the world's devices.</mission>
+    <description>Intel is a global leader in computing innovation.</description>
+    <jobs_available>Hardware Engineer, System Analyst, Software Developer</jobs_available>
+    <company_logo>intel.jpg</company_logo>
+    <career_page_link>https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html</career_page_link>
+    <rating>4.0</rating>
+    <reviews>321 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>NVIDIA</companyName>
+      <vision>To be the world leader in visual computing technologies and the art and science of visual computing.</vision>
+      <mission>To build solutions for the most challenging visual computing problems.</mission>
+      <description>NVIDIA is known for graphics processing units for gaming and professional markets.</description>
+      <jobs_available>Graphics Engineer, AI Researcher, System Software Engineer</jobs_available>
+      <company_logo>nvidia.jpg</company_logo>
+      <career_page_link>https://www.nvidia.com/en-us/about-nvidia/careers/</career_page_link>
+      <rating>4.4</rating>
+      <reviews>465 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Oracle</companyName>
+      <vision>To provide the most complete, open, and integrated business software and hardware systems in the industry.</vision>
+      <mission>To provide technologies and services that let companies innovate and adapt.</mission>
+      <description>Oracle offers a comprehensive and fully integrated stack of cloud applications and platform services.</description>
+      <jobs_available>Database Administrator, Software Developer, Cloud Engineer</jobs_available>
+      <company_logo>oracle.jpg</company_logo>
+      <career_page_link>https://www.oracle.com/corporate/careers/</career_page_link>
+      <rating>4.0</rating>
+      <reviews>654 Reviews</reviews>
+    </company>
     </companies>
   </section>
   <section>
     <name>Healthcare</name>
     <image>healthcare.jpg</image>
-    <total_companies>10</total_companies>
+    <total_companies>9</total_companies>
     <companies>
       <company>
-        <companyName>Amazon</companyName>
-        <vision>To organize the world's information and make it universally accessible and useful.</vision>
-        <mission>To focus on customer obsession rather than competitor focus, continuous innovation, operational excellence, and long-term thinking.</mission>
-        <description>Amazon is one of the world's leading technology companies, with a wide range of products and services, including e-commerce, cloud computing, and streaming video.</description>
-        <jobs_available>Software Engineer, Data Scientist, Product Manager</jobs_available>
-        <company_logo>amazon.jpg</company_logo>
-        <career_page_link>https://www.amazon.com/jobs</career_page_link>
+        <companyName>Pfizer</companyName>
+        <vision>To bring innovative medicines and vaccines to every part of the world.</vision>
+        <mission>To be a leader in global healthcare and provide essential health solutions.</mission>
+        <description>Pfizer is a multinational pharmaceutical corporation and one of the world's largest pharmaceutical companies.</description>
+        <jobs_available>Chemical Analyst, Medical Writer, Regulatory Affairs Specialist</jobs_available>
+        <company_logo>pfizer.jpg</company_logo>
+        <career_page_link>https://www.pfizer.com/careers</career_page_link>
+        <rating>4.4</rating>
+        <reviews>543 Reviews</reviews>
       </company>
       <company>
-        <companyName>Microsoft</companyName>
-        <vision>To empower every person and every organization on the planet to achieve more.</vision>
-        <mission>To build the world's best software, hardware, and services, and to make them accessible and affordable to people all over the world.</mission>
-        <description>Microsoft is another leading technology company, with a wide range of products and services, including the Windows operating system, the Office productivity suite, and the Azure cloud computing platform.</description>
-        <jobs_available>Software Engineer, Cloud Architect, Data Scientist</jobs_available>
-        <company_logo>microsoft.jpg</company_logo>
-        <career_page_link>https://careers.microsoft.com</career_page_link>
+        <companyName>AstraZeneca</companyName>
+        <vision>To create a better everyday life for people by offering a range of effective and high-quality medicines.</vision>
+        <mission>To turn innovative science into value for patients, particularly in the area of oncology, respiratory, and autoimmune diseases.</mission>
+        <description>AstraZeneca is a global, science-led biopharmaceutical business that focuses on the discovery, development, and commercialization of prescription medicines.</description>
+        <jobs_available>Biostatistician, Pharmacovigilance Specialist, Clinical Trial Manager</jobs_available>
+        <company_logo>astra_zeneca.jpg</company_logo>
+        <career_page_link>https://careers.astrazeneca.com</career_page_link>
+        <rating>4.3</rating>
+        <reviews>456 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>GSK (GlaxoSmithKline)</companyName>
+        <vision>To help people do more, feel better, and live longer.</vision>
+        <mission>To create a healthier population in a healthier world.</mission>
+        <description>GSK is a science-led global healthcare company that researches and develops a broad range of innovative products.</description>
+        <jobs_available>Pharmaceutical Sales Representative, Medical Science Liaison, Regulatory Affairs Manager</jobs_available>
+        <company_logo>gsk.jpg</company_logo>
+        <career_page_link>https://www.gsk.com/en-gb/careers</career_page_link>
+        <rating>4.1</rating>
+        <reviews>345 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>Merck</companyName>
+        <vision>To make a difference in the lives of people globally through innovative medicines, vaccines, and animal health products.</vision>
+        <mission>To discover, develop, and provide innovative products and services that save and improve lives.</mission>
+        <description>Merck is a leading multinational pharmaceutical company that researches and develops medicines and vaccines.</description>
+        <jobs_available>Medical Scientist, Clinical Research Coordinator, Product Manager</jobs_available>
+        <company_logo>merck.jpg</company_logo>
+        <career_page_link>https://jobs.merck.com</career_page_link>
+        <rating>4.0</rating>
+        <reviews>432 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>Cigna</companyName>
+        <vision>To improve the health, well-being, and peace of mind of those they serve.</vision>
+        <mission>To help improve the health, well-being, and peace of mind of those they serve by making healthcare simple, affordable, and predictable.</mission>
+        <description>Cigna is a global health services company dedicated to improving the health, well-being, and peace of mind of those they serve.</description>
+        <jobs_available>Healthcare Analyst, Customer Service Representative, Health Coach</jobs_available>
+        <company_logo>cigna.jpg</company_logo>
+        <career_page_link>https://www.cigna.com/careers</career_page_link>
+        <rating>4.2</rating>
+        <reviews>239 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>Fresenius Medical Care</companyName>
+        <vision>To be a global leader in healthcare, providing better healthcare for more people worldwide.</vision>
+        <mission>To deliver superior care that improves the quality of life for people suffering from kidney disease.</mission>
+        <description>Fresenius Medical Care is the world's leading provider of products and services for individuals with renal diseases.</description>
+        <jobs_available>Nephrologist, Renal Dietitian, Dialysis Technician</jobs_available>
+        <company_logo>fresenius.jpg</company_logo>
+        <career_page_link>https://jobs.fmcna.com</career_page_link>
+        <rating>4.0</rating>
+        <reviews>152 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>AmerisourceBergen</companyName>
+        <vision>To create healthier futures for millions of patients worldwide.</vision>
+        <mission>To deliver innovative services that drive efficiency and product access to healthcare.</mission>
+        <description>AmerisourceBergen is a leading global healthcare solutions company.</description>
+        <jobs_available>Pharmacy Technician, Warehouse Associate, Healthcare Solutions Specialist</jobs_available>
+        <company_logo>amerisourcebergen.jpg</company_logo>
+        <career_page_link>https://www.amerisourcebergen.com/careers</career_page_link>
+        <rating>4.1</rating>
+        <reviews>187 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>Cardinal Health</companyName>
+        <vision>To be the most trusted partner in healthcare.</vision>
+        <mission>To support pharmacies, hospitals, and ambulatory care sites in providing pharmaceuticals, medical products, and services.</mission>
+        <description>Cardinal Health is a global, integrated healthcare services and products company.</description>
+        <jobs_available>Pharmacist, Medical Sales Representative, Supply Chain Analyst</jobs_available>
+        <company_logo>cardinal_health.jpg</company_logo>
+        <career_page_link>https://www.cardinalhealth.com/en/careers.html</career_page_link>
+        <rating>4.3</rating>
+        <reviews>215 Reviews</reviews>
+      </company>
+      <company>
+        <companyName>Quest Diagnostics</companyName>
+        <vision>To empower people to take action to improve health outcomes.</vision>
+        <mission>To innovate, inspire, and empower better health outcomes by delivering actionable insights through diagnostic testing services.</mission>
+        <description>Quest Diagnostics is a provider of diagnostic information services, serving patients and the healthcare industry.</description>
+        <jobs_available>Medical Laboratory Technician, Phlebotomist, Client Services Representative</jobs_available>
+        <company_logo>quest_diagnostics.jpg</company_logo>
+        <career_page_link>https://www.questdiagnostics.com/home/about/careers.html</career_page_link>
+        <rating>4.2</rating>
+        <reviews>197 Reviews</reviews>
       </company>
     </companies>
+  </section>
+  <section>
+  <name>Finance</name>
+  <image>finance.jpg</image>
+  <total_companies>8</total_companies>
+  <companies>
+  <company>
+    <companyName>JPMorgan Chase</companyName>
+    <vision>To build the best and most respected global financial services company.</vision>
+    <mission>To provide the best financial solutions and services to meet the needs of our clients and customers.</mission>
+    <description>JPMorgan Chase is a leading global financial services firm offering a wide range of financial solutions.</description>
+    <jobs_available>Financial Analyst, Investment Banker, Risk Manager</jobs_available>
+    <company_logo>jpmorgan_chase.jpg</company_logo>
+    <career_page_link>https://careers.jpmorganchase.com</career_page_link>
+    <rating>4.5</rating>
+    <reviews>458 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Goldman Sachs</companyName>
+    <vision>To be the leading global investment banking, securities, and investment management firm.</vision>
+    <mission>To serve a broad and diverse set of clients and provide best-in-class financial advice and services.</mission>
+    <description>Goldman Sachs is a leading global investment banking, securities, and investment management firm.</description>
+    <jobs_available>Investment Banking Analyst, Portfolio Manager, Quantitative Analyst</jobs_available>
+    <company_logo>goldman_sachs.jpg</company_logo>
+    <career_page_link>https://www.goldmansachs.com/careers</career_page_link>
+    <rating>4.3</rating>
+    <reviews>312 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Citigroup</companyName>
+    <vision>To enable growth and progress for individuals, institutions, and communities around the world.</vision>
+    <mission>To provide financial services that enable growth and economic progress.</mission>
+    <description>Citigroup is a global financial services corporation providing a broad range of financial products and services.</description>
+    <jobs_available>Financial Advisor, Banking Analyst, Credit Risk Analyst</jobs_available>
+    <company_logo>citigroup.jpg</company_logo>
+    <career_page_link>https://jobs.citi.com</career_page_link>
+    <rating>4.2</rating>
+    <reviews>275 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Morgan Stanley</companyName>
+    <vision>To continuously innovate, re-imagine, and deliver the future of finance.</vision>
+    <mission>To provide the finest financial advice, products, and execution to help clients achieve their objectives.</mission>
+    <description>Morgan Stanley is a global financial services firm offering financial advice and products.</description>
+    <jobs_available>Financial Planner, Wealth Management Analyst, Sales and Trading Associate</jobs_available>
+    <company_logo>morgan_stanley.jpg</company_logo>
+    <career_page_link>https://www.morganstanley.com/careers</career_page_link>
+    <rating>4.4</rating>
+    <reviews>289 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>HSBC</companyName>
+    <vision>To connect customers to opportunities and enable businesses to thrive and economies to prosper.</vision>
+    <mission>To be the world's leading international bank, helping people and businesses prosper across the globe.</mission>
+    <description>HSBC is a multinational banking and financial services organization.</description>
+    <jobs_available>Financial Analyst, Relationship Manager, Risk Manager</jobs_available>
+    <company_logo>hsbc.jpg</company_logo>
+    <career_page_link>https://www.hsbc.com/careers</career_page_link>
+    <rating>4.1</rating>
+    <reviews>202 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>American Express</companyName>
+    <vision>To provide the world’s best customer experience every day.</vision>
+    <mission>To deliver exceptional services, products, and expertise to help customers make the most of every opportunity.</mission>
+    <description>American Express is a globally integrated payments company that provides customers with access to products, insights, and experiences that enrich lives and build business success.</description>
+    <jobs_available>Financial Analyst, Credit Analyst, Relationship Manager</jobs_available>
+    <company_logo>american_express.jpg</company_logo>
+    <career_page_link>https://careers.americanexpress.com</career_page_link>
+    <rating>4.2</rating>
+    <reviews>222 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Wells Fargo</companyName>
+    <vision>To satisfy our customers’ financial needs and help them succeed financially.</vision>
+    <mission>To be the most admired company in America through our commitment to our customers, our employees, and the communities we serve.</mission>
+    <description>Wells Fargo is a diversified financial services company that offers banking, insurance, investments, mortgage, and consumer and commercial finance services.</description>
+    <jobs_available>Financial Advisor, Loan Officer, Business Analyst</jobs_available>
+    <company_logo>wells_fargo.jpg</company_logo>
+    <career_page_link>https://www.wellsfargo.com/about/careers</career_page_link>
+    <rating>4.0</rating>
+    <reviews>176 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>BlackRock</companyName>
+    <vision>To help more and more people experience financial well-being.</vision>
+    <mission>To create a better financial future for clients by providing them with solutions to meet their investment goals.</mission>
+    <description>BlackRock is a global investment management corporation that offers a range of products to institutional and individual investors.</description>
+    <jobs_available>Financial Analyst, Portfolio Manager, Risk Analyst</jobs_available>
+    <company_logo>blackrock.jpg</company_logo>
+    <career_page_link>https://careers.blackrock.com</career_page_link>
+    <rating>4.3</rating>
+    <reviews>195 Reviews</reviews>
+  </company>
+  </companies>
+  </section>
+  <section>
+  <name>Engineering</name>
+  <image>engineering.jpg</image>
+  <total_companies>6</total_companies>
+  <companies>
+  <company>
+    <companyName>General Electric (GE)</companyName>
+    <vision>To transform industries and improve lives through innovative technologies.</vision>
+    <mission>Our mission is to invent the next industrial era to build, power, move, and cure the world.</mission>
+    <description>General Electric is a multinational conglomerate providing various engineering products and services.</description>
+    <jobs_available>Mechanical Engineer, Electrical Engineer, Software Developer</jobs_available>
+    <company_logo>ge.jpg</company_logo>
+    <career_page_link>https://www.gecareers.com</career_page_link>
+    <rating>4.2</rating>
+    <reviews>127 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Siemens</companyName>
+    <vision>To provide cutting-edge technologies that enhance the quality of life worldwide.</vision>
+    <mission>Our mission is to be a leading engineering company, developing solutions for sustainable progress.</mission>
+    <description>Siemens is a global powerhouse focusing on intelligent infrastructure for energy, healthcare, and industry.</description>
+    <jobs_available>Automation Engineer, Project Manager, System Architect</jobs_available>
+    <company_logo>siemens.jpg</company_logo>
+    <career_page_link>https://new.siemens.com/global/en/company/jobs.html</career_page_link>
+    <rating>4.3</rating>
+    <reviews>189 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Boeing</companyName>
+    <vision>Our vision is to be the world's leading aerospace company.</vision>
+    <mission>Boeing's mission is to connect, protect, explore, and inspire the world through aerospace innovation.</mission>
+    <description>Boeing is a global aerospace firm that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites.</description>
+    <jobs_available>Aerospace Engineer, Mechanical Designer, System Engineer</jobs_available>
+    <company_logo>boeing.jpg</company_logo>
+    <career_page_link>https://jobs.boeing.com</career_page_link>
+    <rating>4.1</rating>
+    <reviews>198 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Lockheed Martin</companyName>
+    <vision>Our vision is to be the global leader in systems integration and aerospace technology.</vision>
+    <mission>Lockheed Martin's mission is to provide advanced technology systems, products, and services for national security.</mission>
+    <description>Lockheed Martin is a global security and aerospace company engaged in research, design, development, and manufacturing.</description>
+    <jobs_available>Systems Engineer, Aerospace Analyst, Research Scientist</jobs_available>
+    <company_logo>lockheed_martin.jpg</company_logo>
+    <career_page_link>https://www.lockheedmartinjobs.com</career_page_link>
+    <rating>4.4</rating>
+    <reviews>215 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Google</companyName>
+    <vision>Google's vision is to organize the world's information and make it universally accessible and useful.</vision>
+    <mission>Our mission is to provide access to the world's information in one click.</mission>
+    <description>Google is a multinational technology company that specializes in internet-related services and products.</description>
+    <jobs_available>Software Engineer, UX Designer, Hardware Engineer</jobs_available>
+    <company_logo>google.jpg</company_logo>
+    <career_page_link>https://careers.google.com</career_page_link>
+    <rating>4.6</rating>
+    <reviews>368 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Tesla</companyName>
+    <vision>Tesla's vision is to accelerate the world's transition to sustainable energy.</vision>
+    <mission>Our mission is to design and manufacture the best electric cars and energy storage products.</mission>
+    <description>Tesla is an automotive and energy company focused on clean energy and electric vehicles.</description>
+    <jobs_available>Electrical Engineer, Manufacturing Engineer, Autopilot Engineer</jobs_available>
+    <company_logo>tesla.jpg</company_logo>
+    <career_page_link>https://www.tesla.com/careers</career_page_link>
+    <rating>4.7</rating>
+    <reviews>428 Reviews</reviews>
+  </company>
+  </companies>
+  </section>
+
+  <section>
+  <name>Education</name>
+  <image>education.jpg</image>
+  <total_companies>10</total_companies>
+  <companies>
+  <company>
+    <companyName>Pearson</companyName>
+    <vision>To be the world's leading learning company, helping people of all ages to make progress in their lives.</vision>
+    <mission>Pearson's mission is to provide quality education, helping students and learners to achieve their goals.</mission>
+    <description>Pearson is a major educational publishing and assessment service providing a range of educational materials.</description>
+    <jobs_available>Education Consultant, Content Developer, Learning Designer</jobs_available>
+    <company_logo>pearson.jpg</company_logo>
+    <career_page_link>https://pearson.jobs</career_page_link>
+    <rating>4.0</rating>
+    <reviews>124 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>McGraw-Hill</companyName>
+    <vision>To accelerate learning through intuitive, engaging, efficient, and effective experiences.</vision>
+    <mission>Our mission is to unlock the potential of each learner, enabling them to achieve better outcomes.</mission>
+    <description>McGraw-Hill is a leading educational publisher offering customized educational content, software, and services for schools, colleges, and universities.</description>
+    <jobs_available>Educational Content Writer, Instructional Designer, Educational Technology Specialist</jobs_available>
+    <company_logo>mcgraw_hill.jpg</company_logo>
+    <career_page_link>https://careers.mheducation.com</career_page_link>
+    <rating>3.8</rating>
+    <reviews>99 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>EdX</companyName>
+    <vision>EdX's vision is to provide quality education accessible to learners globally.</vision>
+    <mission>Our mission is to increase access to high-quality education for everyone, everywhere.</mission>
+    <description>EdX is a massive open online course (MOOC) provider created by Harvard and MIT offering university-level courses.</description>
+    <jobs_available>E-learning Specialist, Curriculum Developer, Online Instructor</jobs_available>
+    <company_logo>edx.jpg</company_logo>
+    <career_page_link>https://www.edx.org/careers</career_page_link>
+    <rating>4.2</rating>
+    <reviews>150 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Chegg</companyName>
+    <vision>Chegg's vision is to be the student hub, a global learning platform.</vision>
+    <mission>Our mission is to help students save time, save money, and get smarter.</mission>
+    <description>Chegg is an education technology company offering online textbook rentals, homework help, scholarships, and digital learning resources.</description>
+    <jobs_available>Learning Platform Developer, Student Advocate, Subject Matter Expert</jobs_available>
+    <company_logo>chegg.jpg</company_logo>
+    <career_page_link>https://jobs.chegg.com</career_page_link>
+    <rating>4.1</rating>
+    <reviews>135 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Blackboard</companyName>
+    <vision>To advance learning and make education accessible, engaging, and inclusive.</vision>
+    <mission>Blackboard's mission is to reimagine education by partnering with institutions to deliver innovative, learner-centric solutions.</mission>
+    <description>Blackboard is an educational technology company offering learning management systems and educational software.</description>
+    <jobs_available>Educational Technologist, Learning Solutions Consultant, Software Developer</jobs_available>
+    <company_logo>blackboard.jpg</company_logo>
+    <career_page_link>https://careers.blackboard.com</career_page_link>
+    <rating>3.9</rating>
+    <reviews>112 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Udemy</companyName>
+    <vision>To help anyone learn anything.</vision>
+    <mission>Our mission is to improve lives through learning.</mission>
+    <description>Udemy is an online learning platform offering courses on various subjects for professional and personal development.</description>
+    <jobs_available>Course Instructor, Educational Content Curator, Online Learning Consultant</jobs_available>
+    <company_logo>udemy.jpg</company_logo>
+    <career_page_link>https://www.udemy.com/careers</career_page_link>
+    <rating>4.4</rating>
+    <reviews>180 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Coursera</companyName>
+    <vision>Coursera's vision is to provide universal access to the world's best education.</vision>
+    <mission>Our mission is to transform lives through learning.</mission>
+    <description>Coursera is an online learning platform offering courses, certifications, and degrees from universities and organizations.</description>
+    <jobs_available>Instructional Designer, Learning Experience Designer, Education Program Manager</jobs_available>
+    <company_logo>coursera.jpg</company_logo>
+    <career_page_link>https://about.coursera.org/careers</career_page_link>
+    <rating>4.3</rating>
+    <reviews>165 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Khan Academy</companyName>
+    <vision>To provide a free, world-class education for anyone, anywhere.</vision>
+    <mission>Our mission is to provide a free, world-class education for anyone, anywhere.</mission>
+    <description>Khan Academy is a non-profit educational organization offering free educational resources and video tutorials.</description>
+    <jobs_available>Education Specialist, Content Creator, Learning Experience Designer</jobs_available>
+    <company_logo>khan_academy.jpg</company_logo>
+    <career_page_link>https://www.khanacademy.org/about/careers</career_page_link>
+    <rating>4.6</rating>
+    <reviews>198 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Scholastic</companyName>
+    <vision>To ignite the power and joy of learning for all children.</vision>
+    <mission>Scholastic's mission is to make meaningful, positive contributions to education.</mission>
+    <description>Scholastic is a publishing and educational company providing books, magazines, and educational materials for schools and families.</description>
+    <jobs_available>Editorial Assistant, Education Sales Representative, Curriculum Writer</jobs_available>
+    <company_logo>scholastic.jpg</company_logo>
+    <career_page_link>https://scholastic.referrals.selectminds.com</career_page_link>
+    <rating>4.0</rating>
+    <reviews>145 Reviews</reviews>
+  </company>
+  </companies>
+  </section>
+
+  <section>
+  <name>Hospitality</name>
+  <image>hospitality.jpg</image>
+  <total_companies>5</total_companies>
+  <companies>
+  <company>
+    <companyName>Hilton Worldwide</companyName>
+    <vision>To fill the earth with the light and warmth of hospitality.</vision>
+    <mission>Hilton's mission is to be the most hospitable company in the world, by creating heartfelt experiences for guests.</mission>
+    <description>Hilton is a global brand of full-service hotels and resorts known for its high-quality hospitality and luxurious accommodations.</description>
+    <jobs_available>Hotel Manager, Guest Service Agent, Chef</jobs_available>
+    <company_logo>hilton.jpg</company_logo>
+    <career_page_link>https://jobs.hilton.com</career_page_link>
+    <rating>4.5</rating>
+    <reviews>324 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Marriott International</companyName>
+    <vision>Our vision is to be the world's favorite travel company.</vision>
+    <mission>Marriott's mission is to make people's lives better through memorable travel experiences.</mission>
+    <description>Marriott is a global diversified hospitality company offering a wide range of hotels and accommodations.</description>
+    <jobs_available>Front Desk Clerk, Executive Chef, Event Coordinator</jobs_available>
+    <company_logo>marriott.jpg</company_logo>
+    <career_page_link>https://careers.marriott.com</career_page_link>
+    <rating>4.3</rating>
+    <reviews>289 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Accor</companyName>
+    <vision>To make every guest feel welcome and valued.</vision>
+    <mission>Our mission is to ensure a unique, emotional, and authentic experience.</mission>
+    <description>Accor is a multinational hospitality group with a wide range of brands offering hospitality and services.</description>
+    <jobs_available>Concierge, Room Attendant, Restaurant Manager</jobs_available>
+    <company_logo>accor.jpg</company_logo>
+    <career_page_link>https://careers.accor.com</career_page_link>
+    <rating>4.2</rating>
+    <reviews>198 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>InterContinental Hotels Group (IHG)</companyName>
+    <vision>To become one of the world's leading hotel companies.</vision>
+    <mission>Our mission is to provide True Hospitality for everyone.</mission>
+    <description>IHG is a multinational hotel company offering a wide range of hospitality services in various brands.</description>
+    <jobs_available>Front Office Supervisor, Night Auditor, Sous Chef</jobs_available>
+    <company_logo>ihg.jpg</company_logo>
+    <career_page_link>https://careers.ihg.com</career_page_link>
+    <rating>4.1</rating>
+    <reviews>225 Reviews</reviews>
+  </company>
+  <company>
+    <companyName>Carnival Corporation</companyName>
+    <vision>Our vision is to provide unique vacation experiences at sea.</vision>
+    <mission>Carnival's mission is to deliver exceptional vacation value to our guests.</mission>
+    <description>Carnival is a cruise company operating several cruise lines and offering travel and vacation experiences.</description>
+    <jobs_available>Cruise Director, Deckhand, Entertainment Coordinator</jobs_available>
+    <company_logo>carnival.jpg</company_logo>
+    <career_page_link>https://jobs.carnival.com</career_page_link>
+    <rating>4.0</rating>
+    <reviews>188 Reviews</reviews>
+  </company>
+  </companies>
+  </section>
+
+  <section>
+  <name>Environment</name>
+  <image>environment.jpg</image>
+  <total_companies>9</total_companies>
+  <companies>
+    <company>
+      <companyName>WWF (World Wide Fund for Nature)</companyName>
+      <vision>Our vision is to build a future where people live in harmony with nature.</vision>
+      <mission>WWF's mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth.</mission>
+      <description>WWF is a non-profit organization dedicated to wildlife conservation and environmental protection.</description>
+      <jobs_available>Environmental Scientist, Conservation Biologist, Climate Change Analyst</jobs_available>
+      <company_logo>wwf.jpg</company_logo>
+      <career_page_link>https://www.worldwildlife.org/careers</career_page_link>
+      <rating>4.5</rating>
+      <reviews>154 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>The Nature Conservancy</companyName>
+      <vision>A world where people and nature thrive together.</vision>
+      <mission>The Nature Conservancy's mission is to conserve the lands and waters on which all life depends.</mission>
+      <description>The Nature Conservancy is a global environmental nonprofit working to address critical conservation challenges.</description>
+      <jobs_available>Environmental Policy Analyst, Environmental Planner, Ecologist</jobs_available>
+      <company_logo>nature_conservancy.jpg</company_logo>
+      <career_page_link>https://www.nature.org/en-us/about-us/careers</career_page_link>
+      <rating>4.4</rating>
+      <reviews>142 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Sierra Club</companyName>
+      <vision>Our vision is to ensure a future where people and the planet thrive.</vision>
+      <mission>The Sierra Club's mission is to explore, enjoy, and protect the planet.</mission>
+      <description>The Sierra Club is an environmental organization promoting responsible use of Earth's ecosystems and resources.</description>
+      <jobs_available>Environmental Organizer, Climate Change Advocate, Environmental Attorney</jobs_available>
+      <company_logo>sierra_club.jpg</company_logo>
+      <career_page_link>https://www.sierraclub.org/careers</career_page_link>
+      <rating>4.3</rating>
+      <reviews>136 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Environmental Defense Fund (EDF)</companyName>
+      <vision>A world where people from all backgrounds can live in harmony with nature.</vision>
+      <mission>EDF's mission is to preserve the natural systems on which all life depends.</mission>
+      <description>EDF is a nonprofit environmental advocacy group working to address a variety of environmental problems.</description>
+      <jobs_available>Environmental Analyst, Environmental Economist, Climate Scientist</jobs_available>
+      <company_logo>edf.jpg</company_logo>
+      <career_page_link>https://www.edf.org/jobs</career_page_link>
+      <rating>4.2</rating>
+      <reviews>128 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>National Geographic Society</companyName>
+      <vision>To inspire people to care about the planet.</vision>
+      <mission>National Geographic's mission is to create a planet in balance through exploration, research, and education.</mission>
+      <description>National Geographic is a nonprofit scientific and educational organization focusing on environmental and cultural conservation.</description>
+      <jobs_available>Conservation Biologist, Science Writer, Environmental Photographer</jobs_available>
+      <company_logo>national_geographic.jpg</company_logo>
+      <career_page_link>https://www.nationalgeographic.org/careers</career_page_link>
+      <rating>4.5</rating>
+      <reviews>166 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Greenpeace</companyName>
+      <vision>Our vision is a greener, healthier, and more peaceful planet.</vision>
+      <mission>Greenpeace's mission is to expose global environmental problems and promote solutions for a green and peaceful future.</mission>
+      <description>Greenpeace is an international environmental organization campaigning for a green and peaceful future.</description>
+      <jobs_available>Climate Campaigner, Ocean Campaign Director, Energy Analyst</jobs_available>
+      <company_logo>greenpeace.jpg</company_logo>
+      <career_page_link>https://www.greenpeace.org/international/explore/careers/</career_page_link>
+      <rating>4.3</rating>
+      <reviews>150 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Conservation International</companyName>
+      <vision>Our vision is a healthy, prosperous world in which societies are forever committed to caring for and valuing nature.</vision>
+      <mission>Conservation International's mission is to protect nature for the benefit of people.</mission>
+      <description>Conservation International is an environmental organization focusing on the protection of nature for human well-being.</description>
+      <jobs_available>Environmental Scientist, Marine Biologist, Biodiversity Specialist</jobs_available>
+      <company_logo>conservation_international.jpg</company_logo>
+      <career_page_link>https://www.conservation.org/careers</career_page_link>
+      <rating>4.4</rating>
+      <reviews>145 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>Friends of the Earth</companyName>
+      <vision>Our vision is to create a peaceful and sustainable world based on societies living in harmony with nature.</vision>
+      <mission>Friends of the Earth's mission is to fight for a more healthy and just world.</mission>
+      <description>Friends of the Earth is an environmental network campaigning for solutions to environmental problems.</description>
+      <jobs_available>Environmental Campaigner, Policy Analyst, Community Organizer</jobs_available>
+      <company_logo>friends_of_the_earth.jpg</company_logo>
+      <career_page_link>https://foe.org/about/jobs-internships/</career_page_link>
+      <rating>4.1</rating>
+      <reviews>138 Reviews</reviews>
+    </company>
+    <company>
+      <companyName>The Wilderness Society</companyName>
+      <vision>Our vision is to protect America's wilderness and inspire Americans to care for our wild places.</vision>
+      <mission>The Wilderness Society's mission is to protect and restore wild places in America for future generations.</mission>
+      <description>The Wilderness Society is a nonprofit organization dedicated to the protection of U.S. public lands and wilderness areas.</description>
+      <jobs_available>Environmental Policy Analyst, Wilderness Specialist, Public Lands Advocate</jobs_available>
+      <company_logo>wilderness_society.jpg</company_logo>
+      <career_page_link>https://www.wilderness.org/careers</career_page_link>
+      <rating>4.2</rating>
+      <reviews>143 Reviews</reviews>
+    </company>
+  </companies>
   </section>
 </talentcen>

@@ -9,13 +9,14 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.io.InputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class ReadXML {
+public class ReadXML implements Serializable {
     private CategoryModel[] data;
     Context context;
 
@@ -37,7 +38,7 @@ public class ReadXML {
         NodeList nameList = document.getElementsByTagName("name");
         NodeList imageList = document.getElementsByTagName("image");
         NodeList totalList = document.getElementsByTagName("total_companies");
-        NodeList companiesList = document.getElementsByTagName("company");
+        NodeList sectionList = document.getElementsByTagName("section");
         Log.e("ERROR", "Slicing done");
         data = new CategoryModel[nameList.getLength()];
         for (int i=0;i<nameList.getLength();i++) {
@@ -45,7 +46,11 @@ public class ReadXML {
             String image = imageList.item(i).getFirstChild().getNodeValue();
             String total_companies = totalList.item(i).getFirstChild().getNodeValue();
             List<CompanyModel> companyList = new ArrayList<>();
+            Node section = sectionList.item(i);
+            Element sectionElement = (Element) section;
+            NodeList companiesList = sectionElement.getElementsByTagName("company");
             for (int j=0;j<companiesList.getLength();j++) {
+
                 Node companyNode = companiesList.item(j);
                 if (companyNode.getNodeType() == Node.ELEMENT_NODE) {
 
@@ -57,8 +62,10 @@ public class ReadXML {
                     String jobsAvailable = companyElement.getElementsByTagName("jobs_available").item(0).getTextContent();
                     String companyLogo = companyElement.getElementsByTagName("company_logo").item(0).getTextContent();
                     String careerPageLink = companyElement.getElementsByTagName("career_page_link").item(0).getTextContent();
+                    String rating = companyElement.getElementsByTagName("rating").item(0).getTextContent();
+                    String reviews = companyElement.getElementsByTagName("reviews").item(0).getTextContent();
                     Log.d("Company Details", "Name: " + companyName + ", Vision: " + vision + ", Mission: " + mission);
-                    CompanyModel cm = new CompanyModel(companyName, vision, mission, description, jobsAvailable, companyLogo, careerPageLink);
+                    CompanyModel cm = new CompanyModel(companyName, vision, mission, description, jobsAvailable, companyLogo, careerPageLink, rating, reviews);
                     companyList.add (cm);
                 }
             }
@@ -99,14 +106,28 @@ public class ReadXML {
         return companyLogos;
     }
 
-    public String [] getCompanyVision(int position){
+    public String [] getJobsAvailableInCompany(int position){
         List<CompanyModel> cm = data[position].getCompanies();
-        String companyVision[] = new String[cm.size()];
+        String jobsAvailable[] = new String[cm.size()];
         int i=0;
         for (CompanyModel c : cm) {
-            companyVision[i++] = c.getVision();
+            jobsAvailable[i++] = c.getJobsAvailable();
         }
-        return companyVision;
+        return jobsAvailable;
+    }
+
+    public String [] getReviewsAndRatings(int position){
+        List<CompanyModel> cm = data[position].getCompanies();
+        String ratingsReviews[] = new String[cm.size()];
+        int i=0;
+        for (CompanyModel c : cm) {
+            ratingsReviews[i++] = c.getRating() + "  |  " + c.getReviews();
+        }
+        return ratingsReviews;
+    }
+
+    public CompanyModel getCompanyData (int sectionPosition, int companyPosition) {
+        return data[sectionPosition].getCompanies().get(companyPosition);
     }
     public String [] getTotalCompanies(){
         String [] totalCompanies = new String[getCount()];

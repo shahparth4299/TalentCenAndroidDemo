@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".AvailableCompaniesActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cyan"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="?attr/imageButtonStyle" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listOfCompanies"
         android:layout_width="match_parent"

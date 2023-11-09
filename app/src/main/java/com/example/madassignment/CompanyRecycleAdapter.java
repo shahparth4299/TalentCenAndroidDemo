@@ -15,15 +15,18 @@ public class CompanyRecycleAdapter extends RecyclerView.Adapter<CompanyRecycleAd
     String [] companyNames;
     int [] companyLogos;
     String[] companyVision;
+
+    String[] companyRatingAndReviews;
     RecyclerViewInterface recyclerViewInterface;
 
-    public CompanyRecycleAdapter(Context context, int layout, String [] companyNames, int [] companyLogos, String[] companyVision,
+    public CompanyRecycleAdapter(Context context, int layout, String [] companyNames, int [] companyLogos, String[] companyVision, String[] companyRatingAndReviews,
                                  RecyclerViewInterface recyclerViewInterface){
         this.context = context;
         this.layout = layout;
         this.companyNames = companyNames;
         this.companyLogos = companyLogos;
         this.companyVision = companyVision;
+        this.companyRatingAndReviews = companyRatingAndReviews;
         this.recyclerViewInterface = recyclerViewInterface;
     }
 
@@ -32,6 +35,7 @@ public class CompanyRecycleAdapter extends RecyclerView.Adapter<CompanyRecycleAd
         holder.label1.setText(this.companyNames[position]);
         holder.icon.setImageResource(this.companyLogos[position]);
         holder.label2.setText(this.companyVision[position]);
+        holder.label3.setText(this.companyRatingAndReviews[position]);
     }
 
     @Override
@@ -48,13 +52,14 @@ public class CompanyRecycleAdapter extends RecyclerView.Adapter<CompanyRecycleAd
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        TextView label1, label2;
+        TextView label1, label2, label3;
         ImageView icon;
         public ViewHolder(View item, RecyclerViewInterface recyclerViewInterface){
             super(item);
             this.label1 = item.findViewById(R.id.companyName);
-            this.icon = item.findViewById(R.id.companyLogo);
+            this.icon = item.findViewById(R.id.companyImage);
             this.label2 = item.findViewById(R.id.companyVision);
+            this.label3 = item.findViewById(R.id.companyRatingAndReviews);
             item.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

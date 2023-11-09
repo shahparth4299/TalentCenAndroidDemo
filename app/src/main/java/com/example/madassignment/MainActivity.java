@@ -34,16 +34,17 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
         adapter = new SectionRecycleAdapter(getApplicationContext(), R.layout.card_view, sections, imageIds, totalCompanies, this);
         list.setAdapter(adapter);
     }
-
     @Override
     public void onItemClick(int position) {
         Toast.makeText(this, "selected "+sections[position], Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, AvailableCompaniesActivity.class);
         Bundle bundle = new Bundle();
+        bundle.putInt("sectionPosition", position);
         bundle.putSerializable("section", data.getCategoryModel(position));
         bundle.putStringArray("companyNames", data.getCompanyNames(position));
+        bundle.putStringArray("companyRatingAndReviews", data.getReviewsAndRatings(position));
         bundle.putIntArray("companyLogos", data.getCompanyLogo(position));
-        bundle.putStringArray("companyVision", data.getCompanyVision(position));
+        bundle.putStringArray("jobsAvailable", data.getJobsAvailableInCompany(position));
         intent.putExtras(bundle);
         startActivity(intent);
     }
